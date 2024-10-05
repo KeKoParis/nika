@@ -1,0 +1,34 @@
+concept_mimosa
+<- concept_flower;
+=> nrel_main_idtf:
+   [мимоза]
+   (* <- lang_ru;; *);
+=> nrel_color: yellow (*<-concept_color;;*);
+=> nrel_size: small (*<-concept_size;;*);
+=> nrel_shape: spherical (*<-concept_shape;;*);
+=> nrel_fragrance: strong (*<-concept_fragrance;;*);
+=> nrel_blooming_season: spring (*<-concept_season;;*);
+=> nrel_growing_conditions: warm (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: well_drained (*<-concept_soil_type;;*);
+=> nrel_moisture: moderate (*<-concept_moisture;;*);
+=> nrel_pollinator: bee (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: high (*<-concept_disease_resistance;;*);
+=> nrel_usage: bouquet (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_mimosa;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ мимоза — это деликатное растение с мелкими жёлтыми цветками, часто используемое в декоративных композициях и для озеленения интерьеров.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: мимоза]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_mimosa
+    	};;
+  *);;

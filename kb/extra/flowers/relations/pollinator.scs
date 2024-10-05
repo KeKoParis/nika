@@ -1,0 +1,40 @@
+nrel_pollinator
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+   [опылитель]
+   (* <- lang_ru;; *);
+=> nrel_first_domain: concept_pollinator;
+=> nrel_second_domain: concept_flower;
+=> nrel_definitional_domain:
+   ...
+   (*
+  	<= nrel_combination: {
+     	concept_pollinator;
+     	concept_flower
+  	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+  	=> nrel_main_idtf:
+   	[Опр. (опылитель)]
+   	(* <- lang_ru;; *);;
+  	<- definition;;
+  	<= nrel_sc_text_translation:
+    	...
+    	(*
+       	-> rrel_example:
+        	[Опылитель - отношение описывает, какие насекомые или животные участвуют в опылении конкретного цветка.]
+        	(* <- lang_ru;; *);;
+    	*);;
+  	<= nrel_using_constants: {
+     	concept_pollinator;
+     	concept_flower
+  	};;
+   *);;

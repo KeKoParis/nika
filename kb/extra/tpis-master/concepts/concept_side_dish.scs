@@ -1,0 +1,23 @@
+concept_side_dish
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [гарнир]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_side_dish;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Гарнир — это дополнительное блюдо, подающееся к основному блюду, обычно состоящее из овощей, круп или картофеля.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Гарнир]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_main_course
+        };;
+  *);;

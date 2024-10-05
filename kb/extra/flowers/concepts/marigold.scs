@@ -1,0 +1,36 @@
+concept_marigold
+<- concept_flower;
+=> nrel_main_idtf:
+   [ноготки]
+   (* <- lang_ru;; *);
+=> nrel_color: yellow (*<-concept_color;;*);
+=> nrel_color: orange (*<-concept_color;;*);
+=> nrel_size: small (*<-concept_size;;*);
+=> nrel_shape: round (*<-concept_shape;;*);
+=> nrel_fragrance: mild (*<-concept_fragrance;;*);
+=> nrel_blooming_season: summer (*<-concept_season;;*);
+=> nrel_growing_conditions: warm (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: loamy (*<-concept_soil_type;;*);
+=> nrel_moisture: moderate (*<-concept_moisture;;*);
+=> nrel_pollinator: butterfly (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: high (*<-concept_disease_resistance;;*);
+=> nrel_usage: garden (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_marigold;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ африканский календула — это цветок с яркими, крупными цветками, часто цветущий летом и используемый для ограждения и защиты сада.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: африканский календула]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_marigold
+    	};;
+  *);;
+

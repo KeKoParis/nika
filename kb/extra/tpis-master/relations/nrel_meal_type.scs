@@ -1,0 +1,40 @@
+nrel_meal_type
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+   [тип приема пищи*]
+   (* <- lang_ru;; *);
+=> nrel_first_domain: concept_dish;
+=> nrel_second_domain: concept_meal_time;
+=> nrel_definitional_domain:
+   ...
+   (*
+      <= nrel_combination: {
+         concept_dish;
+         concept_meal_time
+      };;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+       [Опр. (тип приема пищи*)]
+       (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+        ...
+        (*
+           -> rrel_example:
+            [тип приема пищи* - отношение связывает блюда с типом приема пищи, к которому они относятся (например, завтрак, обед, ужин).]
+            (* <- lang_ru;; *);;
+        *);;
+      <= nrel_using_constants: {
+         concept_dish;
+         concept_meal_time
+      };;
+   *);;

@@ -1,0 +1,23 @@
+concept_cutlery
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [столовые приборы]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_cutlery;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Столовые приборы включают в себя такие предметы, как вилки, ножи и ложки, используемые при приеме пищи.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Столовые приборы]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_food
+        };;
+  *);;

@@ -1,0 +1,40 @@
+nrel_soil_type
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+   [тип почвы]
+   (* <- lang_ru;; *);
+=> nrel_first_domain: concept_soil_type;
+=> nrel_second_domain: concept_flower;
+=> nrel_definitional_domain:
+   ...
+   (*
+  	<= nrel_combination: {
+     	concept_soil_type;
+     	concept_flower
+  	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+  	=> nrel_main_idtf:
+   	[Опр. (тип почвы)]
+   	(* <- lang_ru;; *);;
+  	<- definition;;
+  	<= nrel_sc_text_translation:
+    	...
+    	(*
+       	-> rrel_example:
+        	[Тип почвы - отношение описывает вид почвы, подходящий для выращивания конкретного цветка.]
+        	(* <- lang_ru;; *);;
+    	*);;
+  	<= nrel_using_constants: {
+     	concept_soil_type;
+     	concept_flower
+  	};;
+   *);;

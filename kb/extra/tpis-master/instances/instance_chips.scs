@@ -1,0 +1,20 @@
+chips
+<- concept_appetizer;
+<- concept_food;
+=> nrel_main_idtf:
+	   [чипсы]
+   (* <- lang_ru;; *);
+=> nrel_ingredient_usage:
+   salt;
+   black_pepper;;
+
+chips => nrel_cooking_time: 30(*<-number;;*);;
+
+chips => nrel_proteins: 7(*<-number;;*);;
+chips => nrel_fats: 35 (*<-number;;*);;
+chips => nrel_carbohydrates: 53(*<-number;;*);;
+chips => nrel_cooking_method: baking_food;;
+chips => nrel_popularity: concept_belarus(*<-concept_country;;*);;
+chips => nrel_cooking_temperature: 120 (*<-number;;*);;
+chips => nrel_origin: concept_belarus(*<-concept_country;;*);;
+

@@ -1,0 +1,26 @@
+concept_appetizer
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [закуска]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_appetizer;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Закуска — это небольшое блюдо, подаваемое перед основным блюдом для возбуждения аппетита.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [опеределени: Закуска]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_dish;
+            concept_main_course;
+            concept_food
+        };;
+  *);;
+   

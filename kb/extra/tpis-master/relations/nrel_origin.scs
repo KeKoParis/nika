@@ -1,0 +1,40 @@
+nrel_origin
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+   [происхождение*]
+   (* <- lang_ru;; *);
+=> nrel_first_domain: concept_dish;
+=> nrel_second_domain: concept_country;
+=> nrel_definitional_domain:
+   ...
+   (*
+      <= nrel_combination: {
+         concept_dish;
+         concept_country
+      };;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+       [Опр. (происхождение*)]
+       (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+        ...
+        (*
+           -> rrel_example:
+            [происхождение* - отношение связывает блюда с их географическим или культурным происхождением.]
+            (* <- lang_ru;; *);;
+        *);;
+      <= nrel_using_constants: {
+         concept_dish;
+         concept_country
+      };;
+   *);;

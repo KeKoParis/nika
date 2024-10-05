@@ -1,0 +1,28 @@
+concept_diet_type
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [тип диеты]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_vegetarian_diet;
+   concept_vegan_diet;;
+
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_diet_type;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Тип диеты — это совокупность правил и предпочтений питания, таких как вегетарианская или веганская диета.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Тип диеты]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_vegetarian_diet;
+            concept_vegan_diet
+        };;
+  *);;

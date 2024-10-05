@@ -1,0 +1,29 @@
+concept_meal_time
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [время приема пищи]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_breakfast;
+   concept_lunch;
+   concept_dinner;;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_meal_time;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Время приема пищи — это время суток, когда люди обычно едят, например, завтрак, обед, ужин.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Время приема пищи]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_breakfast;
+            concept_lunch;
+            concept_dinner
+        };;
+  *);;

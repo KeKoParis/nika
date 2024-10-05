@@ -1,0 +1,30 @@
+omelet
+<- concept_dish;
+<- concept_food;
+<- concept_breakfast;
+<- concept_main_course;
+=> nrel_main_idtf:
+	   [Омлет]
+   (* <- lang_ru;; *);
+=> nrel_ingredient_usage:
+   salt;;
+omelet => nrel_cooking_time: 10(*<-number;;*);;
+concept_time -> nrel_cooking_time;;
+
+concept_gram -> nrel_proteins;;
+concept_gram -> nrel_fats;;
+concept_gram -> nrel_carbohydrates;;
+concept_gram -> nrel_proteins;;
+concept_degree -> nrel_cooking_temperature;;
+
+omelet => nrel_proteins: 12(*<-number;;*);;
+omelet => nrel_fats: 8 (*<-number;;*);;
+omelet => nrel_carbohydrates: 18(*<-number;;*);;
+omelet => nrel_cooking_method: frying_food;;
+omelet => nrel_meal_type: breakfast_food;;
+omelet => nrel_popularity: concept_belarus(*<-concept_country;;*);;
+omelet => nrel_cooking_temperature: 70 (*<-number;;*);;
+omelet => nrel_origin: concept_belarus(*<-concept_country;;*);;
+omelet => nrel_diet: vegetarian_food;;
+omelet => nrel_tableware: fork;;
+

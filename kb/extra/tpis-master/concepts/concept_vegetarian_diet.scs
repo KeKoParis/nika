@@ -1,0 +1,19 @@
+concept_vegetarian_diet
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [вегетарианская диета]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_vegetarian_diet;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Вегетарианская диета — это способ питания, при котором исключаются мясо и рыба, но допускаются другие продукты животного происхождения, такие как яйца и молочные продукты.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Вегетарианская диета]
+            (* <- lang_ru;; *);;
+  *);;

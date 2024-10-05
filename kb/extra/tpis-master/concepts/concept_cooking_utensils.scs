@@ -1,0 +1,27 @@
+concept_cooking_utensils
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [кухонные принадлежности]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_cutlery;;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_cooking_utensils;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Кухонные принадлежности — это инструменты, используемые для приготовления пищи, такие как кастрюли, сковородки и ножи.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Кухонные принадлежности]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_cooking_method;
+            concept_cutlery;
+            concept_food
+        };;
+  *);;

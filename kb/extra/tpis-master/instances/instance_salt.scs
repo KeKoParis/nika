@@ -1,0 +1,6 @@
+salt
+<- concept_basic_ingredients;
+<- concept_condiments;
+=> nrel_main_idtf:
+	   [Соль]
+   (* <- lang_ru;; *);;

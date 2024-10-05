@@ -1,0 +1,40 @@
+nrel_cooking_method
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+   [метод приготовления*]
+   (* <- lang_ru;; *);
+=> nrel_first_domain: concept_cooking_method;
+=> nrel_second_domain: concept_dish;
+=> nrel_definitional_domain:
+   ...
+   (*
+      <= nrel_combination: {
+         concept_cooking_method;
+         concept_dish
+      };;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+       [Опр. (метод приготовления*)]
+       (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+        ...
+        (*
+           -> rrel_example:
+            [метод приготовления* - отношение описывает метод приготовления, используемый для конкретного блюда.]
+            (* <- lang_ru;; *);;
+        *);;
+      <= nrel_using_constants: {
+         concept_cooking_method;
+         concept_dish
+      };;
+   *);;

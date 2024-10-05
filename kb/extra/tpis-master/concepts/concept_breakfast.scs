@@ -1,0 +1,24 @@
+concept_breakfast
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [завтрак]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_breakfast;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Завтрак — это первый приём пищи в течение дня, который часто включает злаки, фрукты или яйца.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Завтрак]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_meal_time;
+            concept_food
+        };;
+  *);;

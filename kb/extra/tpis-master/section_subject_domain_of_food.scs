@@ -1,0 +1,73 @@
+section_subject_domain_of_food
+=> nrel_main_idtf:
+   [Раздел. Предметная область еды]
+   (* <- lang_ru;; *);
+   [Section. Subject domain of food]
+   (* <- lang_en;; *);
+<- atomic_section;;
+
+
+section_subject_domain_of_food = [*
+	subject_domain_of_food
+<- sc_node_struct;
+	=> nrel_main_idtf:
+      [Предметная область еды]
+      (* <- lang_ru;; *);
+      [Subject domain of food systems]
+      (* <- lang_en;; *);
+<- subject_domain;
+   -> rrel_maximum_studied_object_class:
+      concept_food;
+      concept_dish;
+	-> rrel_not_maximum_studied_object_class:
+      concept_cooking_method;
+      concept_diet_type;
+      concept_meal_time;
+	-> rrel_explored_relation:
+      nrel_ingredient_usage;
+      nrel_cooking_time;
+      nrel_proteins;
+      nrel_fats;
+      nrel_carbohydrates;
+      nrel_cooking_method;
+      nrel_meal_type;
+      nrel_popularity;
+      nrel_cooking_temperature;
+      nrel_diet;
+      nrel_tableware;
+      nrel_origin;;
+
+section_subject_domain_of_food
+-> rrel_key_sc_element:
+   subject_domain_of_food;
+   concept_food;
+   concept_basic_ingredients;
+   concept_dish;
+   concept_cooking_utensils;
+   concept_cooking_method;
+   concept_diet_type;
+   concept_meal_time;
+   concept_herbs;
+   concept_spices;
+   concept_main_course;
+   concept_side_dish;
+   concept_appetizer;
+   concept_cutlery;
+   concept_frying;
+   concept_boiling;
+   concept_vegetarian_diet;
+   concept_vegan_diet;
+   concept_breakfast;
+   concept_lunch;
+   concept_dinner;
+   nrel_ingredient_usage;
+   nrel_cooking_time;
+   nrel_proteins;
+   nrel_fats;
+   nrel_carbohydrates;
+   nrel_cooking_method;
+   nrel_meal_type;
+   nrel_popularity;
+   nrel_cooking_temperature;
+   nrel_origin;;
+*];;

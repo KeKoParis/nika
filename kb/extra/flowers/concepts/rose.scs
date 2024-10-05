@@ -1,0 +1,36 @@
+concept_rose
+<- concept_flower;
+=> nrel_main_idtf:
+   [роза]
+   (* <- lang_ru;; *);
+=> nrel_color: red (*<-concept_color;;*);
+=> nrel_color: white (*<-concept_color;;*);
+=> nrel_color: pink (*<-concept_color;;*);
+=> nrel_size: medium (*<-concept_size;;*);
+=> nrel_shape: round (*<-concept_shape;;*);
+=> nrel_fragrance: strong (*<-concept_fragrance;;*);
+=> nrel_blooming_season: spring (*<-concept_season;;*);
+=> nrel_growing_conditions: moderate (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: loamy (*<-concept_soil_type;;*);
+=> nrel_moisture: moderate (*<-concept_moisture;;*);
+=> nrel_pollinator: bee (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: high (*<-concept_disease_resistance;;*);
+=> nrel_usage: decoration (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_rose;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ роза — это цветок с крупными яркими цветками различных оттенков, часто используемый в букетах и садоводстве.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: роза]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_rose
+    	};;
+  *);;

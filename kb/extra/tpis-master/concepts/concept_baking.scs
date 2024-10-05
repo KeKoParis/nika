@@ -1,0 +1,23 @@
+concept_baking
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [выпекание]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_baking;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Выпекание — это способ приготовления пищи в духовке при высокой температуре.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Выпекание]
+            (* <- lang_ru;; *);;
+         =>nrel_using_constants:
+        {
+            concept_food
+        };;
+  *);;

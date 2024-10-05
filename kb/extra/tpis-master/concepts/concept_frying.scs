@@ -1,0 +1,23 @@
+concept_frying
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [жарка]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_frying;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Жарка — это метод приготовления пищи с использованием масла или жира при высоких температурах.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Жарка]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_food
+        };;
+  *);;

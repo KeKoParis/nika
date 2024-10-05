@@ -1,0 +1,24 @@
+concept_spices
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [специи]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_spices;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Специи — это вещества, получаемые из семян, коры, корней или плодов растений, используемые для придания еде вкуса, цвета или аромата.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Специи]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_herbs;
+            concept_condiments
+        };;
+  *);;

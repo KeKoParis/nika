@@ -1,0 +1,36 @@
+concept_lily
+<- concept_flower;
+=> nrel_main_idtf:
+   [лилия]
+   (* <- lang_ru;; *);
+=> nrel_color: white (*<-concept_color;;*);
+=> nrel_color: pink (*<-concept_color;;*);
+=> nrel_color: orange (*<-concept_color;;*);
+=> nrel_size: large (*<-concept_size;;*);
+=> nrel_shape: trumpet_shaped (*<-concept_shape;;*);
+=> nrel_fragrance: strong (*<-concept_fragrance;;*);
+=> nrel_blooming_season: summer (*<-concept_season;;*);
+=> nrel_growing_conditions: warm (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: loamy (*<-concept_soil_type;;*);
+=> nrel_moisture: high (*<-concept_moisture;;*);
+=> nrel_pollinator: butterfly (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: low (*<-concept_disease_resistance;;*);
+=> nrel_usage: decoration (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_lily;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ лилия — это крупный цветок с трубчатыми или воронковидными цветками, известный своим приятным ароматом и использованием в букетах.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: лилия]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_lily
+    	};;
+  *);;

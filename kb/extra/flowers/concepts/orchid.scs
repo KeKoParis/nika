@@ -1,0 +1,36 @@
+concept_orchid
+<- concept_flower;
+=> nrel_main_idtf:
+   [орхидея]
+   (* <- lang_ru;; *);
+=> nrel_color: purple (*<-concept_color;;*);
+=> nrel_color: white (*<-concept_color;;*);
+=> nrel_color: pink (*<-concept_color;;*);
+=> nrel_size: medium (*<-concept_size;;*);
+=> nrel_shape: irregular (*<-concept_shape;;*);
+=> nrel_fragrance: mild (*<-concept_fragrance;;*);
+=> nrel_blooming_season: year_round (*<-concept_season;;*);
+=> nrel_growing_conditions: humid (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: bark_based (*<-concept_soil_type;;*);
+=> nrel_moisture: high (*<-concept_moisture;;*);
+=> nrel_pollinator: moth (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: medium (*<-concept_disease_resistance;;*);
+=> nrel_usage: decoration (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_orchid;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ орхидея — это экзотический цветок с трубчатыми или неправильными формами цветков, известный своим мягким ароматом и использованием в декоре и парфюмерии.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: орхидея]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_orchid
+    	};;
+  *);;

@@ -1,0 +1,30 @@
+concept_cooking_method
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [метод приготовления пищи]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_frying;
+   concept_baking;
+   concept_boiling;;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_cooking_method;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Метод приготовления — это способ, с помощью которого еда готовится, например, варка, жарка, выпекание.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Метод приготовления]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_frying;
+            concept_boiling;
+            concept_baking;
+            concept_food
+        };;
+  *);;

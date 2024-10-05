@@ -1,0 +1,20 @@
+mash
+<- concept_side_dish;
+<- concept_food;
+=> nrel_main_idtf:
+	   [пюре]
+   (* <- lang_ru;; *);
+=> nrel_ingredient_usage:
+   salt;;
+
+mash => nrel_cooking_time: 30(*<-number;;*);;
+
+mash => nrel_proteins: 20(*<-number;;*);;
+mash => nrel_fats: 10 (*<-number;;*);;
+mash => nrel_carbohydrates: 16(*<-number;;*);;
+mash => nrel_cooking_method: baking_food;;
+mash => nrel_meal_type: lunch_food;;
+mash => nrel_cooking_temperature: 100 (*<-number;;*);;
+mash => nrel_diet: vegetarian_food;;
+mash => nrel_tableware: fork;;
+

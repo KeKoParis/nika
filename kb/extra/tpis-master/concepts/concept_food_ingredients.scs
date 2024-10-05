@@ -1,0 +1,30 @@
+concept_basic_ingredients
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [базовые ингредиенты пищи]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_herbs;
+   concept_condiments;
+   concept_spices;;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_basic_ingredients;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Ингредиенты для приготовления пищи — это продукты, из которых готовят блюда, такие как мясо, овощи, специи и травы.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Ингредиенты для приготовления пищи]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_herbs;
+            concept_spices;
+            concept_condiments;
+            concept_dish
+        };;
+  *);;

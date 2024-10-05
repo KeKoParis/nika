@@ -1,0 +1,6 @@
+baking_food
+<- concept_baking;
+<- concept_food;
+=> nrel_main_idtf:
+	   [выпеченная еда]
+   (* <- lang_ru;; *);;

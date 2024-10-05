@@ -1,0 +1,6 @@
+concept_gram
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [граммы]
+   (* <- lang_ru;; *);;

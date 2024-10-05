@@ -1,0 +1,24 @@
+concept_dinner
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [ужин]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_dinner;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Ужин — это последний приём пищи в течение дня, который может состоять из более лёгких блюд, таких как овощи или салаты.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Ужин]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_meal_time;
+            concept_food
+        };;
+  *);;

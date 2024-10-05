@@ -1,0 +1,6 @@
+dinner_food
+<- concept_dinner;
+<- concept_food;
+=> nrel_main_idtf:
+	   [еда для ужина]
+   (* <- lang_ru;; *);;

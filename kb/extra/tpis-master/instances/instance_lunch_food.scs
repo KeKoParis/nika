@@ -1,0 +1,6 @@
+lunch_food
+<- concept_lunch;
+<- concept_food;
+=> nrel_main_idtf:
+	   [еда для обеда]
+   (* <- lang_ru;; *);;

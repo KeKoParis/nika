@@ -1,0 +1,27 @@
+concept_food
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [еда]
+   (* <- lang_ru;; *);
+=> nrel_note:
+   [Еда представляет собой вещества, которые потребляются организмом для получения питательных веществ и энергии. Включает все виды пищи, от свежих продуктов до приготовленных блюд.]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_dish;
+   concept_main_course;
+   concept_side_dish;;
+
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_food;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Еда — это любая субстанция, потребляемая организмом для получения энергии и питательных веществ.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Еда]
+            (* <- lang_ru;; *);;
+  *);;

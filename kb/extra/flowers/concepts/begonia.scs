@@ -1,0 +1,36 @@
+concept_begonia
+<- concept_flower;
+=> nrel_main_idtf:
+   [бегония]
+   (* <- lang_ru;; *);
+=> nrel_color: pink (*<-concept_color;;*);
+=> nrel_color: red (*<-concept_color;;*);
+=> nrel_color: white (*<-concept_color;;*);
+=> nrel_size: small (*<-concept_size;;*);
+=> nrel_shape: irregular (*<-concept_shape;;*);
+=> nrel_fragrance: mild (*<-concept_fragrance;;*);
+=> nrel_blooming_season: summer (*<-concept_season;;*);
+=> nrel_growing_conditions: warm (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: well_drained (*<-concept_soil_type;;*);
+=> nrel_moisture: high (*<-concept_moisture;;*);
+=> nrel_pollinator: bee (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: medium (*<-concept_disease_resistance;;*);
+=> nrel_usage: garden (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_begonia;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ бегония — это цветок с нежными листьями и мелкими цветками, часто используемый в горшечных растениях и для озеленения интерьеров.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: бегония]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_begonia
+    	};;
+  *);;

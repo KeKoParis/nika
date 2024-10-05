@@ -1,0 +1,27 @@
+chicken_broth
+<- concept_dish;
+<- concept_food;
+<- concept_breakfast;
+<- concept_main_course;
+=> nrel_main_idtf:
+	   [куриный бульон]
+   (* <- lang_ru;; *);
+=> nrel_ingredient_usage:
+   salt;
+   black_pepper;
+   Rosemary;;
+
+chicken_broth => nrel_cooking_time: 120(*<-number;;*);;
+chicken_broth => nrel_proteins: 2.5(*<-number;;*);;
+chicken_broth => nrel_fats: 1.2 (*<-number;;*);;
+chicken_broth => nrel_carbohydrates: 3.5 (*<-number;;*);;
+chicken_broth => nrel_cooking_method: boiling_food;;
+chicken_broth => nrel_meal_type: lunch_food;;
+chicken_broth => nrel_meal_type: dinner_food;;
+chicken_broth => nrel_popularity: concept_belarus(*<-concept_country;;*);;
+chicken_broth => nrel_cooking_temperature: 100 (*<-number;;*);;
+chicken_broth => nrel_origin: concept_belarus(*<-concept_country;;*);;
+chicken_broth => nrel_diet: vegetarian_food;;
+chicken_broth => nrel_tableware: spoon;;
+
+

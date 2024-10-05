@@ -1,0 +1,88 @@
+section_subject_domain_of_flowers
+=> nrel_main_idtf:
+   [Раздел. Предметная область цветов]
+   (* <- lang_ru;; *);
+   [Section. Subject domain of flowers]
+   (* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_flowers = [*
+	subject_domain_of_flowers
+<- sc_node_struct;
+	=> nrel_main_idtf:
+  	[Предметная область цветов]
+  	(* <- lang_ru;; *);
+  	[Subject domain of flowers]
+  	(* <- lang_en;; *);
+<- subject_domain;
+   -> rrel_maximum_studied_object_class:
+  	concept_rose;
+  	concept_tulip;
+  	concept_lily;
+  	concept_chrysanthemum;
+  	concept_orchid;
+  	concept_gerbera;
+  	concept_carnation;
+  	concept_iris;
+  	concept_daffodil;
+  	concept_violet;
+  	concept_peony;
+  	concept_aster;
+  	concept_lavender;
+  	concept_marigold;
+  	concept_begonia;
+  	concept_freesia;
+  	concept_hydrangea;
+  	concept_camellia;
+  	concept_mimosa;
+  	concept_delphinium;
+	-> rrel_explored_relation:
+  	nrel_color;
+  	nrel_size;
+  	nrel_shape;
+  	nrel_fragrance;
+  	nrel_blooming_season;
+  	nrel_growing_conditions;
+  	nrel_soil_type;
+  	nrel_moisture;
+  	nrel_bloom_duration;
+  	nrel_pollinator;
+  	nrel_disease_resistance;
+  	nrel_usage;;
+
+section_subject_domain_of_flowers
+-> rrel_key_sc_element:
+   subject_domain_of_flowers;
+   concept_rose;
+   concept_tulip;
+   concept_lily;
+   concept_chrysanthemum;
+   concept_orchid;
+   concept_gerbera;
+   concept_carnation;
+   concept_iris;
+   concept_daffodil;
+   concept_violet;
+   concept_peony;
+   concept_aster;
+   concept_lavender;
+   concept_marigold;
+   concept_begonia;
+   concept_freesia;
+   concept_hydrangea;
+   concept_camellia;
+   concept_mimosa;
+   concept_delphinium;
+   nrel_color;
+   nrel_size;
+   nrel_shape;
+   nrel_fragrance;
+   nrel_blooming_season;
+   nrel_growing_conditions;
+   nrel_soil_type;
+   nrel_moisture;
+   nrel_bloom_duration;
+   nrel_pollinator;
+   nrel_disease_resistance;
+   nrel_usage;;
+*];;

@@ -1,0 +1,6 @@
+frying_food
+<- concept_frying;
+<- concept_food;
+=> nrel_main_idtf:
+	   [жаренная еда]
+   (* <- lang_ru;; *);;

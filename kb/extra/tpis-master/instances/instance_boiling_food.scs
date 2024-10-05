@@ -1,0 +1,6 @@
+boiling_food
+<- concept_baking;
+<- concept_food;
+=> nrel_main_idtf:
+	   [сваренная еда]
+   (* <- lang_ru;; *);;

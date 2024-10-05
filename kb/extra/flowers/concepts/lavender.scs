@@ -1,0 +1,34 @@
+concept_lavender
+<- concept_flower;
+=> nrel_main_idtf:
+   [лаванда]
+   (* <- lang_ru;; *);
+=> nrel_color: purple (*<-concept_color;;*);
+=> nrel_size: small (*<-concept_size;;*);
+=> nrel_shape: spiky (*<-concept_shape;;*);
+=> nrel_fragrance: strong (*<-concept_fragrance;;*);
+=> nrel_blooming_season: summer (*<-concept_season;;*);
+=> nrel_growing_conditions: warm (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: well_drained (*<-concept_soil_type;;*);
+=> nrel_moisture: low (*<-concept_moisture;;*);
+=> nrel_pollinator: bee (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: high (*<-concept_disease_resistance;;*);
+=> nrel_usage: essential_oil (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_lavender;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ лаванда — это ароматное растение с мелкими фиолетовыми цветками, используемое в кулинарии, медицине и как часть декора.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: лаванда]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_lavender
+    	};;
+  *);;

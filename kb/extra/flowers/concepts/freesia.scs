@@ -1,0 +1,36 @@
+concept_freesia
+<- concept_flower;
+=> nrel_main_idtf:
+   [фрезия]
+   (* <- lang_ru;; *);
+=> nrel_color: yellow (*<-concept_color;;*);
+=> nrel_color: white (*<-concept_color;;*);
+=> nrel_color: pink (*<-concept_color;;*);
+=> nrel_size: small (*<-concept_size;;*);
+=> nrel_shape: tubular (*<-concept_shape;;*);
+=> nrel_fragrance: strong (*<-concept_fragrance;;*);
+=> nrel_blooming_season: spring (*<-concept_season;;*);
+=> nrel_growing_conditions: cool (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: well_drained (*<-concept_soil_type;;*);
+=> nrel_moisture: moderate (*<-concept_moisture;;*);
+=> nrel_pollinator: butterfly (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: medium (*<-concept_disease_resistance;;*);
+=> nrel_usage: bouquet (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_freesia;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ фрезия — это цветок с трубчатыми, ароматными цветками, часто используемый в букетах и садоводстве.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: фрезия]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_freesia
+    	};;
+  *);;

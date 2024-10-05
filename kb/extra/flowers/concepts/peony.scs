@@ -1,0 +1,36 @@
+concept_peony
+<- concept_flower;
+=> nrel_main_idtf:
+   [пион]
+   (* <- lang_ru;; *);
+=> nrel_color: pink (*<-concept_color;;*);
+=> nrel_color: white (*<-concept_color;;*);
+=> nrel_color: red (*<-concept_color;;*);
+=> nrel_size: large (*<-concept_size;;*);
+=> nrel_shape: round (*<-concept_shape;;*);
+=> nrel_fragrance: strong (*<-concept_fragrance;;*);
+=> nrel_blooming_season: spring (*<-concept_season;;*);
+=> nrel_growing_conditions: moderate (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: loamy (*<-concept_soil_type;;*);
+=> nrel_moisture: high (*<-concept_moisture;;*);
+=> nrel_pollinator: bee (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: high (*<-concept_disease_resistance;;*);
+=> nrel_usage: bouquet (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_peony;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ пион — это крупный цветок с шаровидными или чашевидными лепестками, известный своим сильным ароматом и популярностью в садоводстве и декоре.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: пион]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_peony
+    	};;
+  *);;

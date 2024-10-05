@@ -1,0 +1,45 @@
+vegan_food
+<- concept_dish;
+<- concept_food;
+<- concept_vegan_diet;
+=> nrel_main_idtf:
+	   [веганская еда]
+   (* <- lang_ru;; *);;
+
+vegetarian_food
+<- concept_dish;
+<- concept_food;
+<- concept_vegetarian_diet;
+=> nrel_main_idtf:
+	   [вегетерианская еда]
+   (* <- lang_ru;; *);;
+
+black_pepper
+<- concept_spices;
+<- concept_basic_ingredients;
+=> nrel_main_idtf:
+	   [черный перец]
+   (* <- lang_ru;; *);;
+
+
+Rosemary
+<- concept_basic_ingredients;
+<- concept_herbs;
+=> nrel_main_idtf:
+	   [розмарин]
+   (* <- lang_ru;; *);;
+
+
+fork
+<- concept_cooking_utensils;
+<- concept_cutlery;
+=> nrel_main_idtf:
+	   [вилка]
+   (* <- lang_ru;; *);;
+
+spoon
+<- concept_cooking_utensils;
+<- concept_cutlery;
+=> nrel_main_idtf:
+	   [ложка]
+   (* <- lang_ru;; *);;

@@ -1,0 +1,24 @@
+concept_herbs
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [травы]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_herbs;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Травы — это растения, используемые в кулинарии для придания блюдам аромата и вкуса. Часто употребляются в свежем или сушёном виде.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Травы]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_dishes;
+            concept_food
+        };;
+  *);;

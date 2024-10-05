@@ -1,0 +1,22 @@
+mash
+<- concept_side_dish;
+<- concept_food;
+=> nrel_main_idtf:
+	   [жаренный картофель]
+   (* <- lang_ru;; *);
+=> nrel_ingredient_usage:
+   salt;
+   black_pepper;;
+
+mash => nrel_cooking_time: 40(*<-number;;*);;
+
+mash => nrel_proteins: 2.7(*<-number;;*);;
+mash => nrel_fats: 10 (*<-number;;*);;
+mash => nrel_carbohydrates: 23.5 (*<-number;;*);;
+mash => nrel_cooking_method: frying_food;;
+mash => nrel_meal_type: lunch_food;;
+mash => nrel_cooking_temperature: 170 (*<-number;;*);;
+mash => nrel_diet: vegetarian_food;;
+mash => nrel_diet: vegan_food;;
+mash => nrel_tableware: fork;;
+

@@ -1,0 +1,27 @@
+concept_dish
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [блюдо]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_main_course;
+   concept_side_dish;
+   concept_appetizer;;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_dish;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Блюдо — это кулинарное изделие, приготовленное из определенных ингредиентов и подаваемое на стол.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [определение: Блюдо]
+            (* <- lang_ru;; *);;
+        =>nrel_using_constants:
+        {
+            concept_basic_ingredients
+        };;
+  *);;

@@ -1,0 +1,36 @@
+concept_aster
+<- concept_flower;
+=> nrel_main_idtf:
+   [астра]
+   (* <- lang_ru;; *);
+=> nrel_color: purple (*<-concept_color;;*);
+=> nrel_color: white (*<-concept_color;;*);
+=> nrel_color: pink (*<-concept_color;;*);
+=> nrel_size: medium (*<-concept_size;;*);
+=> nrel_shape: star_shaped (*<-concept_shape;;*);
+=> nrel_fragrance: mild (*<-concept_fragrance;;*);
+=> nrel_blooming_season: autumn (*<-concept_season;;*);
+=> nrel_growing_conditions: cool (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: loamy (*<-concept_soil_type;;*);
+=> nrel_moisture: moderate (*<-concept_moisture;;*);
+=> nrel_pollinator: butterfly (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: high (*<-concept_disease_resistance;;*);
+=> nrel_usage: garden (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_aster;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ астра — это цветок с множеством мелких лепестков, часто цветущий осенью и используемый для декорации сада и букетов.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: астра]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_aster
+    	};;
+  *);;

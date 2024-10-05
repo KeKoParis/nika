@@ -1,0 +1,36 @@
+concept_gerbera
+<- concept_flower;
+=> nrel_main_idtf:
+   [гербера]
+   (* <- lang_ru;; *);
+=> nrel_color: yellow (*<-concept_color;;*);
+=> nrel_color: pink (*<-concept_color;;*);
+=> nrel_color: red (*<-concept_color;;*);
+=> nrel_size: medium (*<-concept_size;;*);
+=> nrel_shape: daisy_like (*<-concept_shape;;*);
+=> nrel_fragrance: none (*<-concept_fragrance;;*);
+=> nrel_blooming_season: spring (*<-concept_season;;*);
+=> nrel_growing_conditions: moderate (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: sandy (*<-concept_soil_type;;*);
+=> nrel_moisture: moderate (*<-concept_moisture;;*);
+=> nrel_pollinator: bee (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: medium (*<-concept_disease_resistance;;*);
+=> nrel_usage: decoration (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_gerbera;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ гербера — это яркий цветок с крупными, часто махровыми лепестками, популярный в садоводстве и как часть букетов.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: гербера]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_gerbera
+    	};;
+  *);;

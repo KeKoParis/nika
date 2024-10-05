@@ -1,0 +1,36 @@
+concept_delphinium
+<- concept_flower;
+=> nrel_main_idtf:
+   [дельфиниум]
+   (* <- lang_ru;; *);
+=> nrel_color: blue (*<-concept_color;;*);
+=> nrel_color: white (*<-concept_color;;*);
+=> nrel_color: pink (*<-concept_color;;*);
+=> nrel_size: large (*<-concept_size;;*);
+=> nrel_shape: spire_shaped (*<-concept_shape;;*);
+=> nrel_fragrance: mild (*<-concept_fragrance;;*);
+=> nrel_blooming_season: summer (*<-concept_season;;*);
+=> nrel_growing_conditions: cool (*<-concept_growing_conditions;;*);
+=> nrel_soil_type: well_drained (*<-concept_soil_type;;*);
+=> nrel_moisture: high (*<-concept_moisture;;*);
+=> nrel_pollinator: bee (*<-concept_pollinator;;*);
+=> nrel_disease_resistance: medium (*<-concept_disease_resistance;;*);
+=> nrel_usage: garden (*<-concept_usage;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_delphinium;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[ дельфиниум — это высокий цветок с колосовидными цветками, часто используемый в оформлении сада и букетов.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[опеределени: дельфиниум]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_flower;
+        	concept_delphinium
+    	};;
+  *);;
