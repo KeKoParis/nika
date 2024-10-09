@@ -1,0 +1,23 @@
+concept_shape
+<- sc_node_class;
+=> nrel_main_idtf:
+   [форма]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_shape;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[Форма — это внешняя конфигурация или очертание объекта.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[определение: Форма]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_geometry;
+        	concept_space
+    	};;
+  *);;

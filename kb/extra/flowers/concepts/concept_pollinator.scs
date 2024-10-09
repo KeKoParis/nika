@@ -1,0 +1,23 @@
+concept_pollinator
+<- sc_node_class;
+=> nrel_main_idtf:
+   [опылитель]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_pollinator;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[Опылитель — это организм, переносящий пыльцу между цветками, способствуя их оплодотворению.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[определение: Опылитель]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_insect;
+        	concept_plant_reproduction
+    	};;
+  *);;

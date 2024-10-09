@@ -1,0 +1,23 @@
+concept_fragrance
+<- sc_node_class;
+=> nrel_main_idtf:
+   [аромат]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_fragrance;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[Аромат — это запах, часто ассоциируемый с цветами или другими растениями.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[определение: Аромат]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_scent;
+        	concept_olfactory_sensation
+    	};;
+  *);;

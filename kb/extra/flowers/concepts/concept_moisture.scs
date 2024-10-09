@@ -1,0 +1,23 @@
+concept_moisture
+<- sc_node_class;
+=> nrel_main_idtf:
+   [влажность]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_moisture;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[Влажность — это уровень содержания воды в почве или воздухе, влияющий на рост растений.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[определение: Влажность]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_water;
+        	concept_environment
+    	};;
+  *);;

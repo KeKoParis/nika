@@ -1,0 +1,23 @@
+concept_disease_resistance
+<- sc_node_class;
+=> nrel_main_idtf:
+   [устойчивость к болезням]
+   (* <- lang_ru;; *);;
+   
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_disease_resistance;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[Устойчивость к болезням — это способность растения противостоять болезням и патогенам.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[определение: Устойчивость к болезням]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_plant_health;
+        	concept_pathogen
+    	};;
+  *);;

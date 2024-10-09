@@ -1,0 +1,23 @@
+concept_soil_type
+<- sc_node_class;
+=> nrel_main_idtf:
+   [тип почвы]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_soil_type;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[Тип почвы — это классификация почвы на основе её состава, дренажа и способности поддерживать рост растений.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[определение: Тип почвы]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_earth;
+        	concept_agriculture
+    	};;
+  *);;

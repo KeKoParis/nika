@@ -1,0 +1,23 @@
+concept_color
+<- sc_node_class;
+=> nrel_main_idtf:
+   [цвет]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_color;;
+   <=nrel_sc_text_translation:...
+   (*
+	->[Цвет — это характеристика объекта, зависящая от того, как он отражает или излучает свет.]
+   (* <- lang_ru;; *);;
+   *);;
+	=> nrel_main_idtf:
+        	[определение: Цвет]
+        	(* <- lang_ru;; *);;
+    	=>nrel_using_constants:
+    	{
+        	concept_light;
+        	concept_visual_perception
+    	};;
+  *);;
