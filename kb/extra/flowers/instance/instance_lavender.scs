@@ -1,0 +1,11 @@
+instance_lavender
+<- concept_lavender;
+=> nrel_main_idtf:
+   [сущность лаванда]
+   (* <- lang_ru;; *);
+=> nrel_color: purple (*<-concept_color;;*);
+=> nrel_blooming_season: summer (*<-concept_blooming_season;;*);
+=> nrel_size: small (*<-concept_size;;*);
+=> nrel_fragrance: strong (*<-concept_fragrance;;*);
+=> nrel_usage: medicinal (*<-concept_usage;;*);
+=> nrel_growing_conditions: sunny (*<-concept_growing_conditions;;*);;

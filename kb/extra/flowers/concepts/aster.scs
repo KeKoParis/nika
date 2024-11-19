@@ -8,7 +8,7 @@ concept_aster
 => nrel_color: pink (*<-concept_color;;*);
 => nrel_size: medium (*<-concept_size;;*);
 => nrel_shape: star_shaped (*<-concept_shape;;*);
-=> nrel_fragrance: mild (*<-concept_fragrance;;*);
+=> nrel_fragrance: mild;
 => nrel_blooming_season: autumn (*<-concept_season;;*);
 => nrel_growing_conditions: cool (*<-concept_growing_conditions;;*);
 => nrel_soil_type: loamy (*<-concept_soil_type;;*);

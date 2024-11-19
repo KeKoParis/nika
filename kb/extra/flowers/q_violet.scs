@@ -1,0 +1,8 @@
+concept_message_about_violet
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о фиалке]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_violet];
+<-concept_atomic_message;;

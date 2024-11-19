@@ -1,0 +1,12 @@
+instance_lily
+<- concept_lily;
+=> nrel_main_idtf:
+   [сущность лилия]
+   (* <- lang_ru;; *);
+=> nrel_color: white (*<-concept_color;;*);
+=> nrel_color: pink (*<-concept_color;;*);
+=> nrel_blooming_season: summer (*<-concept_blooming_season;;*);
+=> nrel_size: large (*<-concept_size;;*);
+=> nrel_fragrance: strong (*<-concept_fragrance;;*);
+=> nrel_usage: ornamental (*<-concept_usage;;*);
+=> nrel_growing_conditions: sunny (*<-concept_growing_conditions;;*);;

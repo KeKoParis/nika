@@ -1,0 +1,11 @@
+mild
+<- concept_fragrance;
+=> nrel_main_idtf:
+   [ мягкий ]
+   (* <- lang_ru;; *);;
+   
+strong
+<- concept_fragrance;
+=> nrel_main_idtf:
+   [ сильный ]
+   (* <- lang_ru;; *);;

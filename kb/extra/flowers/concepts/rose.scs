@@ -3,6 +3,7 @@ concept_rose
 => nrel_main_idtf:
    [роза]
    (* <- lang_ru;; *);
+=>nrel_note: [Растение с красивыми крупными душистыми цветками и со стеблем, обычно покрытым шипами.](* <- lang_ru;; *);
 => nrel_color: red (*<-concept_color;;*);
 => nrel_color: white (*<-concept_color;;*);
 => nrel_color: pink (*<-concept_color;;*);

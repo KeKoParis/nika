@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip nika_flowers.zip nika_flowers\/app.json nika_flowers\/entities\/*.json nika_flowers\/intents\/*.json nika_flowers\/traits\/*.json nika_flowers\/utterances\/*.json nika_flowers\/composer\/*.json",
+    "name": "nika_flowers",
+    "lang": "ru",
+    "timezone": "America\/Los_Angeles"
+}

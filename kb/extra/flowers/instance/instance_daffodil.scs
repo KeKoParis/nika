@@ -1,0 +1,11 @@
+instance_daffodil
+<- concept_daffodil;
+=> nrel_main_idtf:
+   [сущность нарцисс]
+   (* <- lang_ru;; *);
+=> nrel_color: yellow (*<-concept_color;;*);
+=> nrel_blooming_season: spring (*<-concept_blooming_season;;*);
+=> nrel_size: medium (*<-concept_size;;*);
+=> nrel_fragrance: sweet (*<-concept_fragrance;;*);
+=> nrel_usage: garden (*<-concept_usage;;*);
+=> nrel_growing_conditions: sunny (*<-concept_growing_conditions;;*);;

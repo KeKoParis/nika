@@ -2,9 +2,9 @@ concept_flower
 <- sc_node_class;
 => nrel_main_idtf:
    [цветок]
-   (* <- lang_ru;; *);;
-   
-   
+   (* <- lang_ru;; *);
+=>nrel_note: [Цветок  — система органов семенного размножения цветковых (покрытосеменных) растений.](* <- lang_ru;; *);;
+
 definition->...
   (*
    ->rrel_key_sc_element: concept_flower;;

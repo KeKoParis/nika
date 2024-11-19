@@ -1,0 +1,8 @@
+concept_message_about_peony
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о пионе]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_peony];
+<-concept_atomic_message;;

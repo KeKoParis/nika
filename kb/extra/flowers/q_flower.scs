@@ -1,0 +1,8 @@
+concept_message_about_flower
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о цветке]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [flower_intent];
+<-concept_atomic_message;;

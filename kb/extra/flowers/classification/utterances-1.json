@@ -1,0 +1,74 @@
+{
+    "utterances": [
+        {
+            "text": "\u041a\u0430\u043a\u043e\u0439 \u0431\u044b\u0432\u0430\u0435\u0442 \u0446\u0432\u0435\u0442 \u0443 \u0446\u0432\u0435\u0442\u043a\u043e\u0432?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 13,
+                    "end": 17,
+                    "body": "\u0446\u0432\u0435\u0442",
+                    "entities": []
+                },
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 20,
+                    "end": 27,
+                    "body": "\u0446\u0432\u0435\u0442\u043a\u043e\u0432",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_color"
+        },
+        {
+            "text": "\u0427\u0442\u043e \u0442\u0430\u043a\u043e\u0435 \u0430\u0440\u043e\u043c\u0430\u0442 \u0446\u0432\u0435\u0442\u043a\u0430?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 10,
+                    "end": 16,
+                    "body": "\u0430\u0440\u043e\u043c\u0430\u0442",
+                    "entities": []
+                },
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 17,
+                    "end": 23,
+                    "body": "\u0446\u0432\u0435\u0442\u043a\u0430",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_fragrance"
+        },
+        {
+            "text": "\u0427\u0442\u043e \u0442\u0430\u043a\u043e\u0435 \u0440\u043e\u0437\u0430?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 10,
+                    "end": 14,
+                    "body": "\u0440\u043e\u0437\u0430",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_rose"
+        },
+        {
+            "text": "\u0427\u0442\u043e \u0442\u0430\u043a\u043e\u0435 \u0446\u0432\u0435\u0442\u043e\u043a?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 10,
+                    "end": 16,
+                    "body": "\u0446\u0432\u0435\u0442\u043e\u043a",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_flower"
+        }
+    ]
+}

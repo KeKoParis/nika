@@ -1,0 +1,8 @@
+concept_message_about_fragrance
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о аромате]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_fragrance];
+<-concept_atomic_message;;

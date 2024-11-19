@@ -1,0 +1,11 @@
+instance_violet
+<- concept_violet;
+=> nrel_main_idtf:
+   [сущность фиалка]
+   (* <- lang_ru;; *);
+=> nrel_color: purple (*<-concept_color;;*);
+=> nrel_blooming_season: spring (*<-concept_blooming_season;;*);
+=> nrel_size: small (*<-concept_size;;*);
+=> nrel_fragrance: sweet (*<-concept_fragrance;;*);
+=> nrel_usage: indoor (*<-concept_usage;;*);
+=> nrel_growing_conditions: shade (*<-concept_growing_conditions;;*);;

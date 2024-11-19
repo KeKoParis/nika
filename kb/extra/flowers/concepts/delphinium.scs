@@ -3,6 +3,7 @@ concept_delphinium
 => nrel_main_idtf:
    [дельфиниум]
    (* <- lang_ru;; *);
+=>nrel_note: [Дельфиниум — это высокий цветок с колосовидными цветками, часто используемый в оформлении сада и букетов.](* <- lang_ru;; *);
 => nrel_color: blue (*<-concept_color;;*);
 => nrel_color: white (*<-concept_color;;*);
 => nrel_color: pink (*<-concept_color;;*);

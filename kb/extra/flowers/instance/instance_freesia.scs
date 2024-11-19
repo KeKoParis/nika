@@ -1,0 +1,11 @@
+instance_freesia
+<- concept_freesia;
+=> nrel_main_idtf:
+   [сущность фрезия]
+   (* <- lang_ru;; *);
+=> nrel_color: yellow (*<-concept_color;;*);
+=> nrel_blooming_season: spring (*<-concept_blooming_season;;*);
+=> nrel_size: small (*<-concept_size;;*);
+=> nrel_fragrance: strong (*<-concept_fragrance;;*);
+=> nrel_usage: bouquet (*<-concept_usage;;*);
+=> nrel_growing_conditions: cool (*<-concept_growing_conditions;;*);;

@@ -64,4 +64,15 @@ concept_atomic_message
 	};
 	{
 		concept_message_no_class
+	};
+	{
+		concept_message_about_flower;
+		concept_message_about_rose;
+		concept_message_about_fragrance;
+		concept_message_about_color;
+		concept_message_about_delphinium;
+		concept_message_about_aster;
+		concept_message_about_carnation;
+		concept_message_about_peony;
+		concept_message_about_violet
 	};;

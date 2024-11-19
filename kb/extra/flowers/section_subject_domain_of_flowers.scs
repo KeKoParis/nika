@@ -17,6 +17,7 @@ section_subject_domain_of_flowers = [*
 <- subject_domain;
    -> rrel_maximum_studied_object_class:
    	concept_flower;
+   	-> rrel_not_maximum_studied_object_class:
   	concept_rose;
   	concept_tulip;
   	concept_lily;

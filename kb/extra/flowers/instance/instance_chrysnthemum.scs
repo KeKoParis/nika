@@ -1,0 +1,12 @@
+instance_chrysanthemum
+<- concept_chrysanthemum;
+=> nrel_main_idtf:
+   [сущность хризантема]
+   (* <- lang_ru;; *);
+=> nrel_color: white (*<-concept_color;;*);
+=> nrel_color: yellow (*<-concept_color;;*);
+=> nrel_blooming_season: autumn (*<-concept_blooming_season;;*);
+=> nrel_size: medium (*<-concept_size;;*);
+=> nrel_fragrance: mild (*<-concept_fragrance;;*);
+=> nrel_usage: garden (*<-concept_usage;;*);
+=> nrel_growing_conditions: cool (*<-concept_growing_conditions;;*);;

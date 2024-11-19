@@ -1,0 +1,6 @@
+red
+<- concept_color;
+=> nrel_main_idtf:
+   [ красный ]
+   (* <- lang_ru;; *);;
+

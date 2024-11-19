@@ -3,12 +3,10 @@ concept_carnation
 => nrel_main_idtf:
    [гвоздика]
    (* <- lang_ru;; *);
-=> nrel_color: red (*<-concept_color;;*);
-=> nrel_color: pink (*<-concept_color;;*);
-=> nrel_color: white (*<-concept_color;;*);
+=> nrel_color: red;
 => nrel_size: medium (*<-concept_size;;*);
 => nrel_shape: frilled (*<-concept_shape;;*);
-=> nrel_fragrance: strong (*<-concept_fragrance;;*);
+=> nrel_fragrance: strong;
 => nrel_blooming_season: spring (*<-concept_season;;*);
 => nrel_growing_conditions: moderate (*<-concept_growing_conditions;;*);
 => nrel_soil_type: sandy (*<-concept_soil_type;;*);

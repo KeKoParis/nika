@@ -1,0 +1,8 @@
+concept_message_about_aster
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о астре]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_aster];
+<-concept_atomic_message;;

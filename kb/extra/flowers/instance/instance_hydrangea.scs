@@ -1,0 +1,11 @@
+instance_hydrangea
+<- concept_hydrangea;
+=> nrel_main_idtf:
+   [сущность гортензия]
+   (* <- lang_ru;; *);
+=> nrel_color: blue (*<-concept_color;;*);
+=> nrel_blooming_season: summer (*<-concept_blooming_season;;*);
+=> nrel_size: large (*<-concept_size;;*);
+=> nrel_fragrance: mild (*<-concept_fragrance;;*);
+=> nrel_usage: garden (*<-concept_usage;;*);
+=> nrel_growing_conditions: sunny (*<-concept_growing_conditions;;*);;

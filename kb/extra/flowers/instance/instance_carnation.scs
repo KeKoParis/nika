@@ -1,0 +1,12 @@
+instance_carnation
+<- concept_carnation;
+=> nrel_main_idtf:
+   [сущность гвоздика]
+   (* <- lang_ru;; *);
+=> nrel_color: red (*<-concept_color;;*);
+=> nrel_color: pink (*<-concept_color;;*);
+=> nrel_blooming_season: summer (*<-concept_blooming_season;;*);
+=> nrel_size: medium (*<-concept_size;;*);
+=> nrel_fragrance: spicy (*<-concept_fragrance;;*);
+=> nrel_usage: bouquet (*<-concept_usage;;*);
+=> nrel_growing_conditions: sunny (*<-concept_growing_conditions;;*);;
